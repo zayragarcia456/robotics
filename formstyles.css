@@ -1,1 +1,168 @@
-
+<!-Global-->
+body {
+  background-color: pink;
+}
+div {
+  padding: 5px
+}
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: white;
+}
+<!-header-->
+header {
+  background-color: #eec0c8;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+  color: purple;
+}
+p {
+  text-align: center;
+  color: purple;
+}
+<!-main-->
+main{
+  padding: 10px;
+}
+<!-Full Name-->
+#name-label{
+  color: red;
+}
+input[type="text"] {
+  float: right;
+}
+<!-Email-->
+#email-label {
+  color: red;
+}
+input[type="email"] {
+  float: right;
+}
+<!-Favorite Number-->
+#number-label{
+  text-decoration: underline;
+  color: #662d91;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+#number {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+<!-Favorite Animal-->
+label[for="dropdown"] {
+  text-decoration: underline;
+  color: #662d91;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+select {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+<!-Favorite Subject-->
+label[for="subject"] {
+  color: #662d91;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+<!-Favorite Subject Label-->
+label[for="Art"]{
+  padding: 20px;
+}
+label[for="English"]{
+  padding: 20px;
+}
+label[for="History"]{
+  padding: 20px;
+}
+label[for="Math"]{
+  padding: 20px;
+}
+label[for="Science"]{
+  padding: 20px;
+}
+<!-Favorite Subject Radio-->
+input[type="radio"]{
+  float: right;
+  padding-left: 20px;
+  width: 40px;
+}
+<!-Favorite Color-->
+label[for="color"] {
+  color: #662d91;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+<!-Favorite Color Label-->
+label[for="Blue"] {
+  padding: 20px;
+  color: blue;
+}
+label[for="Green"] {
+  padding: 20px;
+  color: green;
+}
+label[for="Orange"] {
+  padding: 20px;
+  color: orange;
+}
+label[for="Purple"] {
+  padding: 20px;
+  color: purple;
+}
+label[for="Red"] {
+  padding: 20px;
+  color: red;
+}
+label[for="White"] {
+  padding: 20px;
+  color: white;
+}
+label[for="Yellow"] {
+  padding: 20px;
+  color: yellow;
+}
+<!-Favorite Color Checkbox-->
+input[type="checkbox"] {
+  float: right;
+  padding-left: 20px;
+  width: 40px;
+}
+<!-Any Other Favorites-->
+label[for="text"] {
+  color: #662d91;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+textarea{
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+<!-Submit-->
+button {
+  display: block;
+  margin: 0 auto;
+}
+#submit {
+  color: green;
+}
