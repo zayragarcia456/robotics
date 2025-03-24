@@ -16,7 +16,7 @@ button:hover {
 button {
     display: inline-block;
 }
-div {
+.div1 {
     padding: 3%;
 }
 /*footer*/
