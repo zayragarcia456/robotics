@@ -1,12 +1,12 @@
 /*Logo Design*/
 h1 {
-    text-align: right;
+    float: right;
     font-size: 60px;
     color: blue;
     padding-right: 30%;
 }
 .homepage {
-    text-align: left;
+    float: left;
     font-size: 65px;
     color: orange;
     background-color: black;
