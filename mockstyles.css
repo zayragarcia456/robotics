@@ -1,5 +1,6 @@
 /*Logo Design*/
 header {
-    text-align: center;
+    text-align: left;
     color: blue;
+    padding-left: 20%;
 }
