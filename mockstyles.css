@@ -1,22 +1,22 @@
 /*Logo Design*/
 h1 {
-    float: right;
     display: inline-block;
     font-size: 60px;
     color: blue;
     padding-right: 60%;
 }
 .homepage {
-    float: left;
     font-size: 65px;
     color: orange;
     background-color: black;
+    
+button:hover {
+    display: inline-block;
+    background-color: gray;
+}
+
 }
 /*footer*/
 .copyright {
     clear: right;
-}
-button:hover {
-    display: inline-block;
- background-color: gray;
 }
