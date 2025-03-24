@@ -1,8 +1,9 @@
 /*Logo Design*/
 .div1 {
-    padding-left: 3%;
     background-color: #A8A8A8;
-    background-size: 100px 100px;
+}
+.homediv {
+    padding-left: 3px;
 }
 .logoone {
     width: 500px;
