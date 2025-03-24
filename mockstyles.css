@@ -9,13 +9,14 @@ h1 {
     font-size: 75px;
     color: orange;
     background-color: black;
-    
+    padding: 5%;
+}    
 button:hover {
+    
     background-color: gray;
 }
 button {
     display: inline-block;
-    padding-left: 5%;
 }
 /*footer*/
 .copyright {
