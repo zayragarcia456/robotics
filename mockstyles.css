@@ -3,7 +3,7 @@ h1 {
     display: inline-block;
     font-size: 70px;
     color: blue;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .homepage {
     font-size: 75px;
@@ -13,9 +13,9 @@ h1 {
 button:hover {
     display: inline-block;
     background-color: gray;
-    padding-left: 10%;
 }
-
+button {
+    padding-left: 5%;
 }
 /*footer*/
 .copyright {
