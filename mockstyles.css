@@ -3,7 +3,7 @@ h1 {
     float: right;
     font-size: 60px;
     color: blue;
-    padding-right: 30%;
+    padding-right: 60%;
 }
 .homepage {
     float: left;
@@ -13,5 +13,5 @@ h1 {
 }
 /*footer*/
 .copyright {
-    claer: right;
+    clear: right;
 }
