@@ -1,18 +1,19 @@
 /*Logo Design*/
 h1 {
     display: inline-block;
-    font-size: 60px;
+    font-size: 70px;
     color: blue;
-    padding-right: 60%;
+    padding-left: 10%;
 }
 .homepage {
-    font-size: 65px;
+    font-size: 75px;
     color: orange;
     background-color: black;
     
 button:hover {
     display: inline-block;
     background-color: gray;
+    padding-left: 10%;
 }
 
 }
