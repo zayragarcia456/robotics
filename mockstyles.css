@@ -15,7 +15,9 @@ button:hover {
 }
 button {
     display: inline-block;
-    padding-left: 5%;
+}
+div {
+    padding: 3%;
 }
 /*footer*/
 .copyright {
