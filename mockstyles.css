@@ -15,3 +15,6 @@ h1 {
 .copyright {
     clear: right;
 }
+button:hover {
+ background-color: gray;
+}
