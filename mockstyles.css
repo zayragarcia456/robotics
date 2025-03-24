@@ -3,13 +3,15 @@ h1 {
     display: inline-block;
     font-size: 98px;
     font-family: Radley;
-    color: blue;
+    color: #002D62;
     padding-left: 1%;
 }
 .homepage {
     font-size: 98px;
     font-family: arsenal;
     color: orange;
+    padding-bottom: 5px;
+    padding-top: 5px;
     background-color: black;
     border-radius: 10px;
 }    
