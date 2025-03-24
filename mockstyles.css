@@ -1,6 +1,7 @@
 /*Logo Design*/
 h1 {
     float: right;
+    display: inline-block;
     font-size: 60px;
     color: blue;
     padding-right: 60%;
@@ -16,5 +17,6 @@ h1 {
     clear: right;
 }
 button:hover {
+    display: inline-block;
  background-color: gray;
 }
