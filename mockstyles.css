@@ -3,10 +3,6 @@ body {
     background-color: #686868;
 }
 /*Logo Design*/
-.div1 {
-    background-color: #A8A8A8;
-    padding-left: 2%;
-}
 .logone {
     width: 550px;
     height: 50px;
@@ -16,18 +12,9 @@ body {
     float: right;
     padding-top: 1%;
 }
-h1 {
-    display: inline-block;
-    font-size: 98px;
-    font-family: Radley;
-    color: #0039a6;
-    padding-left: 1%;
-}
-p {
-    display: inline-block;
-    font-size: 80px;
-    font-family: Comic Sans;
-    color: gray;
+.div1 {
+    background-color: #A8A8A8;
+    padding-left: 2%;
 }
 .homepage {
     font-size: 98px;
@@ -43,6 +30,19 @@ button:hover {
 }
 button {
     display: inline-block;
+}
+h1 {
+    display: inline-block;
+    font-size: 98px;
+    font-family: Radley;
+    color: #0039a6;
+    padding-left: 1%;
+}
+p {
+    display: inline-block;
+    font-size: 80px;
+    font-family: Comic Sans;
+    color: gray;
 }
 .logotwo {
     width: 550px;
