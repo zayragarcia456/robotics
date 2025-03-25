@@ -4,10 +4,11 @@
     padding-left: 3%;
 }
 .logone {
-    width: 500px;
+    width: 550px;
     height: 50px;
     background-color: #0039a6;
     border-radius: 999px;
+    padding-top: 2%;
     display: block;
     float: right;
 }
@@ -35,10 +36,11 @@ button {
 }
 
 .logotwo {
-    width: 500px;
+    width: 550px;
     height: 50px;
     background-color: #0039a6;
     border-radius: 999px;
+    padding-bottom: 2%;
 }
 
 /*footer*/
