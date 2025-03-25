@@ -3,6 +3,9 @@
     background-color: #A8A8A8;
     padding-left: 2%;
 }
+.blueone {
+    padding-top: 1%;
+}
 .logone {
     width: 550px;
     height: 50px;
@@ -33,7 +36,9 @@ button:hover {
 button {
     display: inline-block;
 }
-
+.bluetwo {
+    padding-bottom: 1%;
+}
 .logotwo {
     width: 550px;
     height: 50px;
