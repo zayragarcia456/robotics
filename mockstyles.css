@@ -3,20 +3,39 @@ body {
     background-color: #686868;
 }
 /*Logo Design*/
-.logone {
+.logo-one {
     width: 550px;
+    max-width: 100%;
     height: 50px;
     background-color: #0039a6;
     border-radius: 999px;
-    display: block;
-    float: right;
-    padding-top: 1%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.logo-two {
+    width: 550px;
+    max-width: 100%;
+    height: 50px;
+    background-color: #0039a6;
+    border-radius: 999px;
+    padding-bottom: 1%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .div1 {
     background-color: #A8A8A8;
-    padding-left: 2%;
+    position:relative;
+    z-index: 0;
+    padding: 30px;
 }
-.homepage {
+.div1 a {
+    text-decoration: none;
+}
+.homepage-r {
     font-size: 98px;
     font-family: arsenal;
     color: orange;
@@ -25,31 +44,21 @@ body {
     background-color: black;
     border-radius: 10px;
 }    
-button:hover {
+.homepage-r:hover {
     background-color: gray;
 }
-button {
-    display: inline-block;
-}
-h1 {
+.homepage-m {
     display: inline-block;
     font-size: 98px;
     font-family: Radley;
     color: #0039a6;
     padding-left: 1%;
 }
-p {
+.homepage-o {
     display: inline-block;
     font-size: 80px;
     font-family: Comic Sans;
     color: gray;
-}
-.logotwo {
-    width: 550px;
-    height: 50px;
-    background-color: #0039a6;
-    border-radius: 999px;
-    padding-bottom: 1%;
 }
 
 /*footer*/
