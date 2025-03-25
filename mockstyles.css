@@ -9,7 +9,7 @@
     background-color: #0039a6;
     border-radius: 999px;
     display: block;
-    float: left;
+    float: right;
 }
 h1 {
     display: inline-block;
@@ -39,8 +39,6 @@ button {
     height: 50px;
     background-color: #0039a6;
     border-radius: 999px;
-    display: block;
-    float: right;
 }
 
 /*footer*/
