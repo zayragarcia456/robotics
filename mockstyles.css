@@ -47,6 +47,9 @@ button {
 }
 
 /*footer*/
+footer {
+    background-color: #686868;
+}
 .copyright {
     clear: right;
 }
