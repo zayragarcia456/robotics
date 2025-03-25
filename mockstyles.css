@@ -3,7 +3,10 @@ body {
     background-color: #686868;
 }
 /*Logo Design*/
-
+.div1 {
+    background-color: #A8A8A8;
+    padding-left: 2%;
+}
 .blueone {
     padding-top: 1%;
 }
@@ -52,10 +55,7 @@ button {
     background-color: #0039a6;
     border-radius: 999px;
 }
-.div1 {
-    background-color: #A8A8A8;
-    padding-left: 2%;
-}
+
 /*footer*/
 footer {
     background-color: #686868;
