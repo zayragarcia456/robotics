@@ -22,6 +22,12 @@ h1 {
     color: #0039a6;
     padding-left: 1%;
 }
+p {
+    display: inline-block;
+    font-size: 80px;
+    font-family: Comic Sans;
+    color: gray;
+}
 .homepage {
     font-size: 98px;
     font-family: arsenal;
