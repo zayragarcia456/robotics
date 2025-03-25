@@ -55,5 +55,6 @@ footer {
     background-color: #686868;
 }
 .copyright {
-    clear: right;
+    display: block;
+    text-align: center;
 }
