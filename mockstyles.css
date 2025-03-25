@@ -8,7 +8,8 @@
     height: 50px;
     background-color: #0039a6;
     border-radius: 999px;
-    display: inline-block;
+    display: block;
+    margin-left: 1px;
 }
 h1 {
     display: inline-block;
