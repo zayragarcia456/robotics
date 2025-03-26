@@ -55,9 +55,61 @@ body {
 }
 .homepage-o {
     display: inline-block;
-    font-size: 80px;
+    font-size: 75px;
     font-family: Comic Sans;
     color: gray;
+}
+.search-bar {
+    float: right;
+    width: 350px;
+    height: 25px;
+    background-color: #D3D3D3;
+    border-radius: 999px;
+    padding-left: 50px;
+}
+#about-us {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-right: 5px;
+}
+#specs {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#features {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#munchkin {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Logo R ONLY*/
+#r-button {
+    font-size: 98px;
+    font-family: arsenal;
+    color: orange;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}    
+#r-button:hover {
+    background-color: gray;
 }
 
 /*footer*/
