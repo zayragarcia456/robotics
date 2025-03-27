@@ -122,6 +122,24 @@ body {
     background-color: gray;
 }
 
+/*SMALL R logo*/
+.homepage-r-small {
+  font-size: 60px;
+  font-family: arsenal;
+  color: orange;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: black;
+  border-radius: 10px;
+  position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+}    
+.homepage-r-small:hover {
+  background-color: gray;
+}
+
 /*footer*/
 footer {
     background-color: #686868;
