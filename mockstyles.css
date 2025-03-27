@@ -123,7 +123,7 @@ body {
 }
 
 /*SMALL R logo*/
-.homepage-r-small {
+#homepage-r-small {
   font-size: 60px;
   font-family: arsenal;
   color: orange;
@@ -136,7 +136,7 @@ body {
     left: 10px;
     width: 70px;
 }    
-.homepage-r-small:hover {
+#homepage-r-small:hover {
   background-color: gray;
 }
 
