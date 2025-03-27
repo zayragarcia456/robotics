@@ -132,9 +132,11 @@ body {
   background-color: black;
   border-radius: 10px;
   position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 70px;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  text-decoration: none;
+  text-align: center;
 }    
 #homepage-r-small:hover {
   background-color: gray;
