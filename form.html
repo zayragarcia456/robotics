@@ -4,19 +4,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="formstyles.css">
-  <title>Favorite Interests</title>
+  <title>Price Inquiry</title>
 </head>
 <body>
+  <div class="div1">
+    <div class="logo-one"></div>
+    <div class="logo-two"></div>
+    <a href="homepage.html">
+      <h1>
+        <span class="homepage-r-small" >R</span>
+        <span class="homepage-m" >Munchkin</span>
+        <span class="homepage-o" >Olivia Inc.</span>
+      </h1>
+    </a>
+    <div class="search-bar">
+      <a href="about-us.html" id="about-us">ABOUT US</a>
+      <a href="specs.html" id="specs">SPECS</a>
+      <a href="features.html" id="features">FEATURES</a>
+      <a href="munchkin.html" id="munchkin">MUNCHKIN</a>
+      <a href="form.html" id="price-inquiry">PRICE INQUIRY</a>
+    </div>
+  </div>
   <div class="wrapper">
     <header>
-      <h1 id="title">Favorite Interests</h1>
-      <p id="description">Forum of Your Favorite Interests</p>
+      <h1 id="title">Price Inquiry</h1>
+      <p id="description">This is a price inquiry for our lastest creation, Munchkin. Munchkin is still in beta testing so prices may vary depending on the time this form has been submitted.</p>
     </header>
     <main>
       <form id="survey-form">
         <div>
-          <label id="name-label">Full Name*</label>
+          <label id="name-label">Full Legal Name*</label>
           <input id="name" type="text" placeholder="Full Name" required/>
+        </div>
+        <div>
+          <label id="phone-number">Phone Number*</label>
+          <input id="phone-number" type="tel" placeholder="Phone Number" required/>
         </div>
         <div>
           <label id="email-label">Email*</label>
