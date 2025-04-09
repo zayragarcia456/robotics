@@ -82,6 +82,19 @@ header a {
 .homepage-r-small:hover {
   background-color: gray;
 }
+/*R big*/
+.homepage-r {
+    font-size: 98px;
+    font-family: arsenal;
+    color: orange;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: black;
+    border-radius: 10px;
+}    
+.homepage-r:hover {
+    background-color: gray;
+}
 .homepage-m {
   display: inline-block;
   font-size: 98px;
