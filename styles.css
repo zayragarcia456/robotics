@@ -69,7 +69,6 @@ header {
   position:relative;
   z-index: 0;
   padding: 30px;
-  float: left;
 }
 header a {
   text-decoration: none;
