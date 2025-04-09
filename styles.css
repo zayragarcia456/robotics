@@ -60,6 +60,7 @@ main {
 .div1 {
     position:relative;
     z-index: 0;
+    float: left;
 }
 .div1 a {
     text-decoration: none;
