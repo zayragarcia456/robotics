@@ -58,10 +58,8 @@ main {
   z-index: -1;
 }
 .div1 {
-    background-color: #A8A8A8;
     position:relative;
     z-index: 0;
-    padding: 30px;
 }
 .div1 a {
     text-decoration: none;
