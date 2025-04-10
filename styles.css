@@ -72,6 +72,7 @@ body {
     position:relative;
     z-index: 0;
     padding: 30px;
+    min-width: none;
   }
   header a {
     text-decoration: none;
