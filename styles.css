@@ -12,7 +12,6 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    min-width: none;
   }
   
   /*Grid*/
@@ -72,7 +71,6 @@ body {
     position:relative;
     z-index: 0;
     padding: 30px;
-    min-width: none;
   }
   header a {
     text-decoration: none;
@@ -96,8 +94,6 @@ body {
   }
   /*R big*/
   .homepage-r {
-      font-size: 98px;
-      min-width: none;
       font-family: arsenal;
       color: orange;
       padding-bottom: 5px;
@@ -111,7 +107,6 @@ body {
   .homepage-m {
     display: inline-block;
     font-size: 98px;
-    min-width: none;
     font-family: Radley;
     color: #0039a6;
     padding-left: 3px;
@@ -119,7 +114,6 @@ body {
   .homepage-o {
     display: inline-block;
     font-size: 75px;
-    min-width: none;
     font-family: Comic Sans;
     color: gray;
   }
