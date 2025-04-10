@@ -7,26 +7,41 @@ body {
     padding: 5px
   }
   main {
-    width: 650px;
+    min-width: 10px;
+    max-width: 1000px;
     margin: 0 auto;
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    min-width: none;
   }
-  @media (min-width: 768px) {
-  body {
-    font-size: 1.2rem;
-  }
-}
+/* for-phone-only */
+@media only screen and (max-width: 599px) {}
+/* for-tablet-portrait-up */
+@media only screen and (min-width: 600px) {}
+/* for-tablet-portrait-only */
+@media only screen and (min-width: 600px) and (max-width: 899px) {}
+/* for-tablet-landscape-up */
+@media only screen and (min-width: 900px) {}
+/* for-tablet-landscape-only */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {}
+/* for-desktop-up */
+@media only screen and (min-width: 1200px) {}
+/* for-desktop-only */
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {}
+/* for-big-desktop-up */
+@media only screen and (min-width: 1800px) {}
+
+  
   /*Grid*/
   .grid-container {
     display: grid;
     grid-template-areas: 
-    "header header header header header header" 
-    "main main main main main main" 
-    "footer footer footer footer footer footer";
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 230px auto 100px;
+    "header header header" 
+    "main main main" 
+    "footer footer footer";
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: 240px auto 100px;
   }
   .item1 {
     grid-area: header;
@@ -75,6 +90,7 @@ body {
     position:relative;
     z-index: 0;
     padding: 30px;
+    min-width: none;
   }
   header a {
     text-decoration: none;
@@ -98,6 +114,8 @@ body {
   }
   /*R big*/
   .homepage-r {
+      font-size: 98px;
+      min-width: none;
       font-family: arsenal;
       color: orange;
       padding-bottom: 5px;
@@ -111,6 +129,7 @@ body {
   .homepage-m {
     display: inline-block;
     font-size: 98px;
+    min-width: none;
     font-family: Radley;
     color: #0039a6;
     padding-left: 3px;
@@ -118,12 +137,14 @@ body {
   .homepage-o {
     display: inline-block;
     font-size: 75px;
+    min-width: none;
     font-family: Comic Sans;
     color: gray;
   }
   .search-bar {
     float: right;
-    width: 450px;
+    min-width: 10px;
+    max-width: 600px;
     height: 20px;
     background-color: #D3D3D3;
     border-radius: 999px;
@@ -169,6 +190,9 @@ body {
   }
   
   /*heading*/
+  form {
+    width: auto;
+  }
   .heading {
     background-color: gray;
     padding: 5px;
@@ -331,7 +355,8 @@ body {
     padding-bottom: 10px;
   }
   textarea{
-    width: 600px;
+    min-width: 10px;
+    max-width: 600px;
     display: block;
   }
   /*Submit*/
