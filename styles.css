@@ -1,338 +1,351 @@
 /*Global*/
 body {
-  background-color: #686868;
-}
-div {
-  padding: 5px
-}
-main {
-  width: 650px;
-  margin: 0 auto;
-  border-style: solid;
-  border-color: black;
-}
-
-/*Grid*/
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-  "header header header header header header" 
-  "main main main main main main" 
-  "footer footer footer footer footer footer";
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 230px auto 100px;
-}
-.item1 {
-  grid-area: header;
-}
-.item2 {
-  grid-area: main;
-}
-.item3 {
-  grid-area: footer;
-}
-
-/*Logo*/
-.logo-one {
-  width: 550px;
-  min-width: 100px;
-  max-width: 100%;
-  height: 50px;
-  background-color: #0039a6;
-  border-radius: 999px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-}
-.logo-two {
-  width: 550px;
-  min-width: 100px;
-  max-width: 100%;
-  height: 50px;
-  background-color: #0039a6;
-  border-radius: 999px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
-.div1 {
+    background-color: #686868;
+    min-width: none;
+  }
+  div {
+    padding: 5px
+  }
+  main {
+    width: 650px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    min-width: none;
+  }
+  
+  /*Grid*/
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header" 
+    "main main main main main main" 
+    "footer footer footer footer footer footer";
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 230px auto 100px;
+  }
+  .item1 {
+    grid-area: header;
+  }
+  .item2 {
+    grid-area: main;
+  }
+  .item3 {
+    grid-area: footer;
+  }
+  
+  /*Logo*/
+  .logo-one {
+    width: 550px;
+    min-width: 100px;
+    max-width: 100%;
+    height: 50px;
+    background-color: #0039a6;
+    border-radius: 999px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .logo-two {
+    width: 550px;
+    min-width: 100px;
+    max-width: 100%;
+    height: 50px;
+    background-color: #0039a6;
+    border-radius: 999px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .div1 {
+      position:relative;
+      z-index: 0;
+  }
+  .div1 a {
+      text-decoration: none;
+  }
+  header {
+    background-color: #A8A8A8;
     position:relative;
     z-index: 0;
-}
-.div1 a {
+    padding: 30px;
+  }
+  header a {
     text-decoration: none;
-}
-header {
-  background-color: #A8A8A8;
-  position:relative;
-  z-index: 0;
-  padding: 30px;
-}
-header a {
-  text-decoration: none;
-}
-.homepage-r-small {
-  font-size: 60px;
-  font-family: arsenal;
-  color: orange;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  background-color: black;
-  border-radius: 10px;
-  position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 70px;
-}    
-.homepage-r-small:hover {
-  background-color: gray;
-}
-/*R big*/
-.homepage-r {
-    font-size: 98px;
+  }
+  .homepage-r-small {
+    font-size: 60px;
+    min-width: none;
     font-family: arsenal;
     color: orange;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: black;
     border-radius: 10px;
-}    
-.homepage-r:hover {
+    position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 70px;
+  }    
+  .homepage-r-small:hover {
     background-color: gray;
-}
-.homepage-m {
-  display: inline-block;
-  font-size: 98px;
-  font-family: Radley;
-  color: #0039a6;
-  padding-left: 3px;
-}
-.homepage-o {
-  display: inline-block;
-  font-size: 75px;
-  font-family: Comic Sans;
-  color: gray;
-}
-.search-bar {
-  float: right;
-  width: 450px;
-  height: 20px;
-  background-color: #D3D3D3;
-  border-radius: 999px;
-  padding-left: 25px;
-}
-#about-us {
-  font-size: 14px;
-  text-decoration: underline;
-  color: black;
-  border-right: solid;
-  padding-right: 5px;
-}
-#specs {
-  font-size: 14px;
-  text-decoration: underline;
-  color: black;
-  border-right: solid;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#features {
-  font-size: 14px;
-  text-decoration: underline;
-  color: black;
-  border-right: solid;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#munchkin {
-  font-size: 14px;
-  text-decoration: underline;
-  color: black;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-right: solid;
-}
-#price-inquiry {
-  font-size: 14px;
-  text-decoration: underline;
-  color: black;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-/*heading*/
-.heading {
-  background-color: gray;
-  padding: 5px;
-  border: solid;
-  border-color: black;
-}
-.formh1 {
-  text-align: center;
-}
-h1 {
-  color: #0039a6;
-}
-p {
-  text-align: center;
-  color: #0039a6;
-}
-/*content*/
-.content{
-  padding: 10px;
-}
-
-/*Form Styles*/
-/*Full Name*/
-#name-label{
-  color: orange;
-}
-input[type="text"] {
-  float: right;
-}
-/*Email*/
-#email-label {
-  color: orange;
-}
-input[type="email"] {
-  float: right;
-}
-/*Phone Number*/
-#phone-number {
-  color: orange;
-}
-input[type="tel"] {
-  float: right;
-}
-/*Favorite Number*/
-#number-label{
-  text-decoration: underline;
-  color: #662d91;
-  display: block;
-  padding-bottom: 10px;
-  padding-top: 30px;
-  text-align: center;
-}
-#number {
-  display: block;
-  width: 200px;
-  text-align: center;
-  margin: 0 auto;
-}
-/*Favorite Animal*/
-label[for="dropdown"] {
-  text-decoration: underline;
-  color: #662d91;
-  display: block;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  text-align: center;
-}
-select {
-  display: block;
-  width: 200px;
-  text-align: center;
-  margin: 0 auto;
-}
-/*Favorite Subject*/
-label[for="subject"] {
-  color: #662d91;
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-decoration: underline;
-}
-/*Favorite Subject Label*/
-label[for="Art"]{
-  padding: 20px;
-}
-label[for="English"]{
-  padding: 20px;
-}
-label[for="History"]{
-  padding: 20px;
-}
-label[for="Math"]{
-  padding: 20px;
-}
-label[for="Science"]{
-  padding: 20px;
-}
-/*Favorite Subject Radio*/
-input[type="radio"]{
-  float: right;
-  padding-left: 20px;
-  width: 40px;
-}
-/*Favorite Color*/
-label[for="color"] {
-  color: #662d91;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-decoration: underline;
-}
-/*Favorite Color Label*/
-label[for="Blue"] {
-  padding: 20px;
-  color: blue;
-}
-label[for="Green"] {
-  padding: 20px;
-  color: green;
-}
-label[for="Orange"] {
-  padding: 20px;
-  color: orange;
-}
-label[for="Purple"] {
-  padding: 20px;
-  color: purple;
-}
-label[for="Red"] {
-  padding: 20px;
-  color: red;
-}
-label[for="White"] {
-  padding: 20px;
-  color: white;
-}
-label[for="Yellow"] {
-  padding: 20px;
-  color: yellow;
-}
-/*Favorite Color Checkbox*/
-input[type="checkbox"] {
-  float: right;
-  padding-left: 20px;
-  width: 40px;
-}
-/*Any Other Favorites*/
-label[for="text"] {
-  color: #662d91;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-textarea{
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-}
-/*Submit*/
-button {
-  display: block;
-  margin: 0 auto;
-}
-#submit {
-  color: green;
-}
-
-/*footer*/
-footer {
-  display: block;
-  text-align: center;
-}
+  }
+  /*R big*/
+  .homepage-r {
+      font-size: 98px;
+      min-width: none;
+      font-family: arsenal;
+      color: orange;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      background-color: black;
+      border-radius: 10px;
+  }    
+  .homepage-r:hover {
+      background-color: gray;
+  }
+  .homepage-m {
+    display: inline-block;
+    font-size: 98px;
+    min-width: none;
+    font-family: Radley;
+    color: #0039a6;
+    padding-left: 3px;
+  }
+  .homepage-o {
+    display: inline-block;
+    font-size: 75px;
+    min-width: none;
+    font-family: Comic Sans;
+    color: gray;
+  }
+  .search-bar {
+    float: right;
+    width: 450px;
+    height: 20px;
+    background-color: #D3D3D3;
+    border-radius: 999px;
+    padding-left: 25px;
+  }
+  #about-us {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-right: 5px;
+  }
+  #specs {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #features {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    border-right: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #munchkin {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: solid;
+  }
+  #price-inquiry {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  /*heading*/
+  .heading {
+    background-color: gray;
+    padding: 5px;
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+  }
+  .formh1 {
+    text-align: center;
+  }
+  h1 {
+    color: #0039a6;
+  }
+  p {
+    text-align: center;
+    color: #0039a6;
+  }
+  #title {
+    text-align: center;
+  }
+  /*content*/
+  .content{
+    padding: 10px;
+  }
+  
+  /*Form Styles*/
+  /*Full Name*/
+  .required1 {
+    border-bottom: solid;
+    padding-bottom: 30px;
+  }
+  #name-label{
+    color: orange;
+  }
+  input[type="text"] {
+    float: right;
+  }
+  /*Email*/
+  #email-label {
+    color: orange;
+  }
+  input[type="email"] {
+    float: right;
+  }
+  /*Phone Number*/
+  #phone-number {
+    color: orange;
+  }
+  input[type="tel"] {
+    float: right;
+  }
+  /*Favorite Number*/
+  #number-label{
+    text-decoration: underline;
+    color: #662d91;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  #number {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /*Favorite Animal*/
+  label[for="dropdown"] {
+    text-decoration: underline;
+    color: orange;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+  }
+  select {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .price-range {
+    border-bottom: solid;
+    padding-bottom: 10px;
+  }
+  /*version wanted*/
+  .version {
+    border-bottom: solid;
+  }
+  label[for="version"] {
+    color: orange;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  /*Favorite Subject Label*/
+  label[for="Beta"]{
+    padding: 20px;
+  }
+  label[for="Finished"]{
+    padding: 20px;
+  }
+  label[for="Altered"]{
+    padding: 20px;
+  }
+  /*Favorite Subject Radio*/
+  input[type="radio"]{
+    float: right;
+    padding-left: 20px;
+    width: 40px;
+  }
+  /*Favorite Color*/
+  label[for="color"] {
+    color: #662d91;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  /*Favorite Color Label*/
+  label[for="Blue"] {
+    padding: 20px;
+    color: blue;
+  }
+  label[for="Green"] {
+    padding: 20px;
+    color: green;
+  }
+  label[for="Orange"] {
+    padding: 20px;
+    color: orange;
+  }
+  label[for="Purple"] {
+    padding: 20px;
+    color: purple;
+  }
+  label[for="Red"] {
+    padding: 20px;
+    color: red;
+  }
+  label[for="White"] {
+    padding: 20px;
+    color: white;
+  }
+  label[for="Yellow"] {
+    padding: 20px;
+    color: yellow;
+  }
+  /*Favorite Color Checkbox*/
+  input[type="checkbox"] {
+    float: right;
+    padding-left: 20px;
+    width: 40px;
+  }
+  /*Any Other Favorites*/
+  label[for="text"] {
+    color: orange;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  textarea{
+    width: 600px;
+    display: block;
+  }
+  /*Submit*/
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  #submit {
+    color: green;
+  }
+  
+  /*footer*/
+  footer {
+    display: block;
+    text-align: center;
+  }
