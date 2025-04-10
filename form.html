@@ -36,56 +36,52 @@
     </div>
     <div class="content">
       <form id="survey-form">
-        <div>
-          <label id="name-label">Full Legal Name*</label>
-          <input id="name" type="text" placeholder="Full Name" required/>
+        <div class="required1">
+          <div>
+            <label id="name-label">Full Legal Name*</label>
+            <input id="name" type="text" placeholder="Full Name" required/>
+          </div>
+          <div>
+            <label id="phone-number">Phone Number*</label>
+            <input id="phone" type="tel" placeholder="Phone Number" required/>
+          </div>
+          <div>
+            <label id="email-label">Email*</label>
+            <input id="email" type="email" placeholder="Email" required/>
+          </div>
         </div>
         <div>
-          <label id="phone-number">Phone Number*</label>
-          <input id="phone-number" type="tel" placeholder="Phone Number" required/>
-        </div>
-        <div>
-          <label id="email-label">Email*</label>
-          <input id="email" type="email" placeholder="Email" required/>
-        </div>
-        <div>
-          <label id="number-label">Favorite Number</label>
+          <label id="number-label">Version Wanted</label>
           <input id="number" type="number" min="1" max="10" placeholder="1-10"/>
         </div>
-        <div>
-          <label for="dropdown">Favorite Animal</label>
+        <div class="price-range">
+          <label for="dropdown">Price Range</label>
           <select id="dropdown">
-            <option>Birds</option>
-            <option>Cats</option>
-            <option>Dogs</option>
-            <option>Ferrets</option>
-            <option>Horses</option>
-            <option>Monkeys</option>
-            <option>Snakes</option>
-            <option>Turtles</option>
-            <option>Zebras</option>
+            <option>1,000-5,000</option>
+            <option>5,000-10,000</option>
+            <option>10,000-15,000</option>
+            <option>15,000-20,000</option>
+            <option>20,000+</option>
           </select>
       </div>
-      <label for="subject">Favorite Subject</label>
+      <div class="version">
+      <label for="version">Version Wanted*</label>
       <div>
-        <input type="radio" value="Art" name="subject"/>
-        <label for="Art">Art</label>
+        <input type="radio" value="Beta" name="version" required/>
+        <label for="Beta">Beta</label>
       </div>
       <div>
-        <input type="radio" value="English" name="subject"/>
-        <label for="English">English</label>
+        <input type="radio" value="finished-product" name="version"/>
+        <label for="Finished">Finished Product</label>
       </div>
       <div>
-        <input type="radio" value="History" name="subject"/>
-        <label for="History">History</label>
+        <input type="radio" value="altered-product" name="version"/>
+        <label for="Altered">Altered Product</label>
       </div>
+      <label for="text">Write Alterarions Here</label>
       <div>
-        <input type="radio" value="Math" name="subject"/>
-        <label for="Math">Math</label>
+        <textarea placeholder="Include all alterations here" name="text"></textarea>
       </div>
-      <div>
-        <input type="radio" value="Science" name="subject"/>
-        <label for="Science">Science</label>
       </div>
       <label for="color">Favorite Color</label>
       <div>
@@ -115,10 +111,6 @@
       <div>
         <input type="checkbox" value="Yellow" name="color"/>
         <label for="Yellow">Yellow</label>
-      </div>
-      <label for="text">Any Other Favorites?</label>
-      <div>
-        <textarea placeholder="Type Here" name="text"></textarea>
       </div>
       <div>
         <button id="submit" type="submit">Submit</button>
