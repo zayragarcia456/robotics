@@ -13,7 +13,11 @@ body {
     border-color: black;
     border-width: 5px;
   }
-  
+  @media (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
   /*Grid*/
   .grid-container {
     display: grid;
