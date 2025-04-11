@@ -8,7 +8,7 @@ body {
   }
   main {
     min-width: 10px;
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
     border-style: solid;
     border-color: black;
@@ -32,7 +32,11 @@ body {
 /* for-big-desktop-up */
 @media only screen and (min-width: 1800px) {}
 
-  
+@media (max-width: 599px) {
+  body {
+    font-size: 10px;
+  }
+}
   /*Grid*/
   .grid-container {
     display: grid;
@@ -128,7 +132,7 @@ body {
   }
   .homepage-m {
     display: inline-block;
-    font-size: 98px;
+    font-size: 75px;
     min-width: none;
     font-family: Radley;
     color: #0039a6;
@@ -355,8 +359,8 @@ body {
     padding-bottom: 10px;
   }
   textarea{
-    min-width: 10px;
-    max-width: 600px;
+    min-width: 20px;
+    max-width: 300px;
     display: block;
   }
   /*Submit*/
