@@ -94,14 +94,14 @@ body {
     position:relative;
     z-index: 0;
     padding: 30px;
-    min-width: none;
+    min-width: 0;
   }
   header a {
     text-decoration: none;
   }
   .homepage-r-small {
     font-size: 60px;
-    min-width: none;
+    min-width: 0;
     font-family: arsenal;
     color: orange;
     padding-bottom: 5px;
@@ -119,7 +119,7 @@ body {
   /*R big*/
   .homepage-r {
       font-size: 98px;
-      min-width: none;
+      min-width: 0;
       font-family: arsenal;
       color: orange;
       padding-bottom: 5px;
@@ -133,7 +133,7 @@ body {
   .homepage-m {
     display: inline-block;
     font-size: 75px;
-    min-width: none;
+    min-width: 0;
     font-family: Radley;
     color: #0039a6;
     padding-left: 3px;
@@ -141,7 +141,7 @@ body {
   .homepage-o {
     display: inline-block;
     font-size: 75px;
-    min-width: none;
+    min-width: 0;
     font-family: Comic Sans;
     color: gray;
   }
