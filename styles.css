@@ -1,7 +1,7 @@
 /*Global*/
 body {
     background-color: #686868;
-    min-width: none;
+    min-width: 0;
   }
   div {
     padding: 5px
