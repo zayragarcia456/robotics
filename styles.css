@@ -363,7 +363,10 @@ footer {
 body {
   font-size: 20px;
 }
-  .search-bar{
-      height: auto;
-  }
+.search-bar{
+    height: auto;
+}
+img {
+  width: auto;
+}
 }
