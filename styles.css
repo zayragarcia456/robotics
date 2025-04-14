@@ -570,16 +570,23 @@ h2 {
   text-align: center;
 }
 #homeimgbrain {
-  padding-left: 1px;
+  padding-left: 7px;
+}
+.homemunchkin img {
+  padding: 0px;
+  max-width: 110px;
 }
 .homebrain {
-  padding-left: 0px;
+  padding-left: 5px;
+  font-size: 8px;
 }
 .homesensor1 {
-  padding-left: 1px;
+  padding-left: 8px;
+  font-size: 8px;
 }
 .homemotor1 {
-  padding-left: 4px;
+  padding-left: 20px;
+  font-size: 8px;
 }
 .homemunchkin {
   font-size: 10px;
@@ -587,10 +594,6 @@ h2 {
 }
 .homemunckin p {
   padding: 10px;
-}
-.homemunchkin img {
-  padding: 5px;
-  max-width: 122px;
 }
 .backinfo {
   text-align: center;
@@ -617,6 +620,7 @@ h2 {
 }
 .mySlides {
   width: 350px;
+}
 }
 .contactfacility{
   text-align: center;
