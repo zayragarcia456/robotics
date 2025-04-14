@@ -1,117 +1,122 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="stylesheet" href="styles.css">
-	<title>Mock Page</title>
-  </head>
-  <body>
-	<div class="div1">
-	<div class="grid-container">
-  <div class="item1">
-  <header>
-    <div class="logo-one"></div>
-    <div class="logo-two"></div>
-    <a href="homepage.html">
-      <h1>
-        <span class="homepage-r" >R</span>
-        <span class="homepage-m" >Munchkin</span>
-        <span class="homepage-o" >Olivia Inc.</span>
-      </h1>
-    </a>
-    <div class="search-bar">
-      <a href="about-us.html" id="about-us">ABOUT US</a>
-      <a href="specs.html" id="specs">SPECS</a>
-      <a href="features.html" id="features">FEATURES</a>
-      <a href="munchkin.html" id="munchkin">MUNCHKIN</a>
-      <a href="form.html" id="price-inquiry">PRICE INQUIRY</a>
-    </div>
-  </header>
-  </div>
-  </div>
-  <div class="slideshow-container">
 
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="images/munchkin.jpeg" style="width:100%" alt="Munchkin robot">
-      <div class="slide-text">Munchkin in its Beta stage</div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Mock Page</title>
+</head>
+
+<body>
+  <div class="div1">
+    <div class="grid-container">
+      <div class="item1">
+        <header>
+          <div class="logo-one"></div>
+          <div class="logo-two"></div>
+          <a href="homepage.html">
+            <h1>
+              <span class="homepage-r">R</span>
+              <span class="homepage-m">Munchkin</span>
+              <span class="homepage-o">Olivia Inc.</span>
+            </h1>
+          </a>
+          <div class="search-bar">
+            <a href="about-us.html" id="about-us">ABOUT US</a>
+            <a href="specs.html" id="specs">SPECS</a>
+            <a href="features.html" id="features">FEATURES</a>
+            <a href="munchkin.html" id="munchkin">MUNCHKIN</a>
+            <a href="form.html" id="price-inquiry">PRICE INQUIRY</a>
+          </div>
+        </header>
+      </div>
     </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="images/munchkin_claw.jpeg" style="width:100%" alt="Claw of Munchkin">
-      <div class="slide-text">Claw of Munchkin</div>
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="images/motor1angle.jpeg" style="width:100%" alt="Motor one of Munchkin">
-      <div class="slide-text">One of Munchkin's Motors</div>
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-    
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/munchkin.jpeg" style="width:100%" alt="Munchkin robot">
+        <div class="slide-text">Munchkin in its Beta stage</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/munchkin_claw.jpeg" style="width:100%" alt="Claw of Munchkin">
+        <div class="slide-text">Claw of Munchkin</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/motor1angle.jpeg" style="width:100%" alt="Motor one of Munchkin">
+        <div class="slide-text">One of Munchkin's Motors</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
     </div>
     <br>
-    
+
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-<script>
-  let slideIndex = 1;
-showSlides(slideIndex);
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-<h2>
-  Presenting Olivia Inc's newest creation; Munchkin. 
-</h2>
-<h3>
-  <p id="munchdes">
-    Munchkin is our latest creation that is still currently in beta testing. The main purpose of Munchkin is to detect and pick up objects that are directly in front of it by using high-powered motors and sensors.
-    Making it incredibly easy to pick up whatever you need from any surface. 
-    There is no more need to stand up to get something off the ground ever again! This robot is also incredibly good at helping with chores that require picking anything up, making it the perfect asset to your household.
-  </p>
-</h3>
-<div class="homemunchkin">
-  <p>Other features of Munchkin</p>
-  <img src="images/brain.jpeg" alt="Brain of Munchkin">
-  <img src="images/sensor1.jpeg" alt="Sensor one of Munchkin"> 
-  <img src="images/motor1.jpeg" alt="Second motor of Munchkin">
-  <p class="homebrain">This is the power house of Munchkin</p>
-  <p class="homesensor1">This sensor detects objects</p>
-  <p class="homemotor1">This motor powers the wheels</p>
-</div>
-	<div class="item3">
-	<footer>
-		<p class="copyright">&#169; Olivia</p>
-	</footer>
-	</div>
-  </body>
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+    <h2>
+      Presenting Olivia Inc's newest creation; Munchkin.
+    </h2>
+    <h3>
+      <p id="munchdes">
+        Munchkin is our latest creation that is still currently in beta testing. The main purpose of Munchkin is to
+        detect and pick up objects that are directly in front of it by using high-powered motors and sensors.
+        Making it incredibly easy to pick up whatever you need from any surface.
+        There is no more need to stand up to get something off the ground ever again! This robot is also incredibly good
+        at helping with chores that require picking anything up, making it the perfect asset to your household.
+      </p>
+    </h3>
+    <div class="homemunchkin">
+      <p class="homeother">Other features of Munchkin</p>
+      <img src="images/brain.jpeg" alt="Brain of Munchkin" id="homeimgbrain">
+      <img src="images/sensor1.jpeg" alt="Sensor one of Munchkin"> 
+      <img src="images/motor1.jpeg" alt="Second motor of Munchkin">
+      <p class="homebrain">This is the power house of Munchkin</p>
+      <p class="homesensor1">This sensor detects objects</p>
+      <p class="homemotor1">This motor powers the wheels</p>
+    </div>
+    <div class="item3">
+      <footer>
+        <p class="copyright">&#169; Olivia</p>
+      </footer>
+    </div>
+</body>
+
 </html>
