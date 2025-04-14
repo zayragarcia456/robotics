@@ -409,11 +409,28 @@ p {
   border-color: #0039a6;
   border-width: 5px;
 }
-.featuresdes {
+.featuresdes1 {
   color: #A8A8A8;
   padding-top: 20px;
   font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+.featuresdes2 {
+  color: #A8A8A8;
+  padding-top: 20px;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.featuresmain img{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  width: 500px;
+}
+
 /*Form Styles*/
 /*Full Name*/
 .required1 {
