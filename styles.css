@@ -490,17 +490,20 @@ div {
 h2 {
   text-align: center;
 }
+.grid-container {
+  grid-template-rows: auto auto 10px;
+}
 #munchdes {
   text-align: center;
 }
 #homeimgbrain {
-  padding-left: 35px;
+  padding-left: 8px;
 }
 .homebrain {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .homesensor1 {
-  padding-left: 25px;
+  padding-left: 35px;
 }
 .homemotor1 {
   padding-left: 30px;
