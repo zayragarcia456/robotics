@@ -391,6 +391,29 @@ p {
   float: left;
   color: orange;
 }
+
+/*Feature styles*/
+.featuresheader {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.featuresmain {
+  border: none;
+  max-width: none;
+}
+.headiv {
+  border-bottom: solid;
+  max-width: none;
+  border-color: #0039a6;
+  border-width: 5px;
+}
+.featuresdes {
+  color: #A8A8A8;
+  padding-top: 20px;
+  font-size: 18px;
+}
 /*Form Styles*/
 /*Full Name*/
 .required1 {
