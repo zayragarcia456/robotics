@@ -4,7 +4,7 @@ body {
   min-width: 0;
 }
 div {
-  padding: 5px
+  padding: 5px;
 }
 main {
   min-width: 10px;
@@ -483,6 +483,9 @@ body {
 }
 img {
   max-width: 350px;
+}
+div {
+  padding: 0;
 }
 h2 {
   text-align: center;
