@@ -30,6 +30,75 @@
   </header>
   </div>
   </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/munchkin.jpeg" style="width:100%">
+      <div class="slide-text">Munchkin in its Beta stage</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/munchkin_claw.jpeg" style="width:100%">
+      <div class="slide-text">Claw of Munchkin</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/motor1angle.jpeg" style="width:100%">
+      <div class="slide-text">One of Munchkin's Motors</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<h2>
+  Presenting Olivia Inc's newest creation; Munchkin. 
+</h2>
+<h3>
+  <p id="munchdes">
+    Munchkin is our latest creation that is still currently in beta testing. The main purpose of Munchkin is to detect and pick up objects that are directly in front of it by using high-powered motors and sensors.
+    Making it incredibly easy to pick up whatever you need from any surface. 
+    There is no more need to stand up to get something off the ground ever again! This robot is also incredibly good at helping with chores that require picking anything up, making it the perfect asset to your household.
+  </p>
+</h3>
 	<div class="item3">
 	<footer>
 		<p class="copyright">&#169; Olivia</p>
