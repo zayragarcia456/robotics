@@ -615,6 +615,8 @@ h2 {
   padding-left: 50px;
   padding-right: 0;
 }
+.mySlides {
+  width: 350px;
 }
 .contactfacility{
   text-align: center;
