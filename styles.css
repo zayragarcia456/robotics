@@ -295,9 +295,35 @@ p {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
+.homemunchkin {
+  font-size: 20px;
+}
 #munchdes {
   text-align: left;
+}
+.homemunchkin img{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.homebrain {
+  display: inline-block;
+  text-align: left;
+  padding-left: 149px;
+  color: black;
+}
+.homesensor1 { 
+  display: inline-block;
+  text-align: center;
+  padding-left: 348px;
+  color: black;
+}
+.homemotor1 {
+  display: inline-block;
+  text-align: right;
+  padding-left: 358px;
+  color: black;
 }
 /*Form Styles*/
 /*Full Name*/
