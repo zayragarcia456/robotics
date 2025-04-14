@@ -503,10 +503,10 @@ h2 {
   padding-left: 0px;
 }
 .homesensor1 {
-  padding-left: 15px;
+  padding-left: 1px;
 }
 .homemotor1 {
-  padding-left: 37px;
+  padding-left: 4px;
 }
 .homemunchkin {
   font-size: 10px;
@@ -517,7 +517,7 @@ h2 {
 }
 .homemunchkin img {
   padding: 5px;
-  max-width: 140px;
+  max-width: 122px;
 }
 }
 @keyframes fade {
