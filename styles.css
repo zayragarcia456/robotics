@@ -570,14 +570,14 @@ h2 {
   text-align: center;
 }
 #homeimgbrain {
-  padding-left: 0px;
+  padding-left: 30px;
 }
 .homemunchkin img {
   padding: 0px;
   max-width: 100px;
 }
 .homebrain {
-  padding-left: 5px;
+  padding-left: 25px;
   font-size: 8px;
 }
 .homesensor1 {
@@ -619,7 +619,7 @@ h2 {
   padding-right: 0;
 }
 .mySlides {
-  width: 308px;
+  width: 395px;
 }
 }
 .contactfacility{
