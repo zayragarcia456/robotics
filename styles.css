@@ -35,6 +35,12 @@ main {
 .item3 {
   grid-area: footer;
 }
+img {
+  min-width: 10px;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
 
 /*Logo*/
 .logo-one {
@@ -279,42 +285,32 @@ input[type="radio"]{
   padding-left: 20px;
   width: 40px;
 }
-/*Favorite Color*/
-label[for="color"] {
+/*Updated Image*/
+label[for="updated-image"] {
   color: #0039a6;
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
   text-decoration: underline;
 }
-/*Favorite Color Label*/
-label[for="Blue"] {
-  padding: 20px;
-  color: blue;
-}
-label[for="Green"] {
-  padding: 20px;
-  color: green;
-}
-label[for="Orange"] {
-  padding: 20px;
+/*Agreement Label*/
+label[for="agreement"] {
   color: orange;
+  text-align: center;
+  font-size: 14px;
 }
-label[for="Purple"] {
+label[for="agree1"] {
   padding: 20px;
-  color: purple;
+  color: black;
 }
-label[for="Red"] {
+label[for="agree2"] {
   padding: 20px;
-  color: red;
+  color: black;
 }
-label[for="White"] {
+label[for="disagree"] {
   padding: 20px;
-  color: white;
-}
-label[for="Yellow"] {
-  padding: 20px;
-  color: yellow;
+  color: black;
 }
 /*Favorite Color Checkbox*/
 input[type="checkbox"] {
@@ -336,7 +332,7 @@ button {
   margin: 0 auto;
 }
 #submit {
-  color: green;
+  color:  #0039a6;
 }
 
 /*footer*/
