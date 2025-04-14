@@ -431,6 +431,9 @@ p {
   width: 500px;
   max-height: 350px;
 }
+#power-house {
+  padding-left: 80px;
+}
 
 /*Form Styles*/
 /*Full Name*/
