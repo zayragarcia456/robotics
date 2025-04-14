@@ -367,6 +367,6 @@ body {
     height: auto;
 }
 img {
-  width: auto;
+  max-width: 350px;
 }
 }
